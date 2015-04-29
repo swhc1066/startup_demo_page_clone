@@ -521,4 +521,50 @@ img.logo {
   font-size: 1.125rem;
   color: white;
   background-color: #f15a29;
+  margin-top: 72px;
+  -webkit-font-smoothing: antialiased;
 }
+
+.big-button:hover {
+  cursor: pointer;
+  background-color: #d9400e;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
