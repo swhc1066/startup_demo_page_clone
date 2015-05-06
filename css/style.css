@@ -25,7 +25,6 @@ html {
 
 body {
   margin: 0;
-  background-color: LightGray;
   font-family: 'Roboto', sans-serif; 
 }
 
@@ -443,6 +442,7 @@ th {
   font-size: 16px; 
   color: #838994; 
   letter-spacing: 0.03em;
+  z-index: 9999;
 }
 
 .top-navigation .links > .active {
@@ -531,15 +531,105 @@ img.logo {
   color: white;
 }
 
+.icons {
+  padding-bottom: 5em;
+  overflow: hidden;
+}
 
+.icons h2 {
+  color: #000000;
+  text-align: center;
+  font-weight: 300;
+  font-size: 42px;
+  margin-top: 150px;
+  -webkit-font-smoothing: antialiased;
+}
 
+.thumbs {   
+    margin-top:90px;
+    padding: 0px;
+    text-align: center;
+}
 
+.thumbs li h3 {
+  color: #000000;
+  text-align: center;
+  font-weight: 200;
+  font-size: 25px;
+}
 
+.thumbs > li {
+  display: inline-block;
+  width: 33%;
+  float: left;
+}
 
+.footer {
+  overflow: auto;
+  padding-bottom: 10em;
+  text-align: center;
+}
 
+.social .content {
+  height: 40px;
+}
 
+.content h5 {
+  text-align: center;
+  font-size: 100%;
+  margin: 20px 0 0 0;
+  
+}
 
+ul.icons {
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+}
 
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+    }
+
+.fa {
+  display: inline-block;
+}
+
+.social {
+  text-align: center;
+  overflow: auto;
+  background-color: #ffffff;
+  padding-bottom: 9.375em;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
 
 
 
